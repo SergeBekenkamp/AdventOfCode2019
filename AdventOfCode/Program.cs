@@ -10,7 +10,8 @@ namespace AdventOfCode
 
             var x = new December06();
             Console.WriteLine("Answer dec 06 {0}", x.GetAnswer1());
-            
+            Console.WriteLine("Answer dec 06 {0}", x.GetAnswer2());
+
         }
     }
 }
