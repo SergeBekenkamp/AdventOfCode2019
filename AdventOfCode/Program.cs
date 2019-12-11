@@ -7,14 +7,10 @@ namespace AdventOfCode
     {
         static async Task Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            var x = new December04();
-            Console.WriteLine(x.Answer1());
-            Console.WriteLine(x.Answer2());
-            //Console.WriteLine(x.GetAnswer2());
 
-
-
+            var x = new December06();
+            Console.WriteLine("Answer dec 06 {0}", x.GetAnswer1());
+            
         }
     }
 }
